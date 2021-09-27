@@ -1,0 +1,34 @@
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+
+  background: #21d4fd;
+
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: rgb(243, 243, 243) !important;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border-radius: 4px;
+  border: none;
+
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:hover {
+  background: #15a9ca;
+}
+
+.btn:active {
+  background: #09bee7;
+}
+
+button:focus {
+  outline: 0;
+}

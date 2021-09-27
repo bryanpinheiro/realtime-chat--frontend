@@ -1,0 +1,11 @@
+.contactListBg {
+    width: 19%;
+    background-color: #FFF;
+}
+
+/* Small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .contactListBg {
+        display: none;
+    }
+}

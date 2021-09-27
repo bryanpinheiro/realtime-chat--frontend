@@ -1,0 +1,32 @@
+.messageRow {
+    display: flex;
+    width: 100%;
+
+    padding: 4px 12px 4px 12px;
+}
+
+.outerMessage {
+    min-width: 48px;
+    max-width: 80%;
+    background-color: #5d576b;
+
+    border-radius: 4px 16px 8px 16px;
+}
+
+.messageRow.right {
+    justify-content: flex-end;
+}
+
+.messageRow.right > .outerMessage {
+    justify-content: flex-end;
+    border-radius: 8px 16px 4px 16px;
+}
+
+.innerMessage {
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: left;
+    padding: 14px 24px;
+    user-select: none;
+}

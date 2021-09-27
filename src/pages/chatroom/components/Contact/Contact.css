@@ -1,0 +1,57 @@
+.contactBg {
+    width: 100%;
+    background: white;
+
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.contactBg:hover .contactInfo .contactName {
+    color: rgba(109,25,252,1) !important;
+}
+
+.contactBg.selected .contactInfo .contactName {
+    color: rgba(109,25,252,1) !important;
+}
+
+.contactAvatar {
+    width: 48px;
+    height: 48px;
+    background-image: linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% );
+    border-radius: 50%;
+}
+
+.contactInfo {
+    flex-grow: 1;
+    padding: 4px 12px;
+    user-select: none;
+}
+
+.contactName {
+    font-size: 0.975rem;
+    font-weight: bold;
+}
+
+.contactStatus {
+    font-size: 0.89rem;
+    color: gray;
+    text-transform: lowercase;
+    letter-spacing: 0.08rem;
+}
+
+.contactStatus.offline {
+    color: #e63946;
+}
+
+.contactStatus.online {
+    color: #06d6a0;
+}
+
+/* Small devices (phones, 600px and down) */
+@media (max-width: 768px) {
+    .contactAvatar {
+        display: none;
+    }
+}
