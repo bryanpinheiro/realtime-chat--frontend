@@ -1,6 +1,6 @@
 import io, { Socket } from "socket.io-client";
 
-const ENDPOINT = "localhost:5000";
+const ENDPOINT = "https://bryansouza--chat-api.herokuapp.com";
 
 type Join = {
     userName: string,
