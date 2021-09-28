@@ -1,5 +1,5 @@
 # **realtime-chat**
-![typescript](https://img.shields.io/github/languages/top/bryansouza/realtime-chat)
+![typescript](https://img.shields.io/github/languages/top/bryansouza/realtime-chat--frontend)
 
 Real-time chat which supports emojis 😜 and uses Socket.IO library to establish a **WebSocket** connection.
 
